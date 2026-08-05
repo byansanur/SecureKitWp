@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/main"
+        android:padding="24dp">
+
+        <Button
+            android:id="@+id/btnCheckSecurity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Keamanan Perangkat"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSecurityStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Status: Belum dicek"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnTestNetwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Cek Keamanan Jaringan (Phase 3)"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnTestHooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Anti-Hooking (Phase 4)"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnReadSecret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read secret Perangkat"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnSaveSecret"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save secret Perangkat"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnEnableScreenProtection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Lindungi Layar (FLAG_SECURE)"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnTestTapjacking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cegah Tapjacking di Tombol Ini"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnClearClipboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus Teks Clipboard"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="--- TEST PHASE 6: SECURE STRING ---"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etSecureInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan PIN Rahasia"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnSaveSecureArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan ke SecureCharArray (XOR)" />
+
+        <Button
+            android:id="@+id/btnReadSecureArray"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baca PIN dari Memory" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="--- TEST PHASE 7: SECURE FILE ---"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnWriteSecureFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan File Terenkripsi" />
+
+        <Button
+            android:id="@+id/btnReadSecureFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baca File Terenkripsi" />
+
+        <Button
+            android:id="@+id/btnTestPathTraversal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Test Path Traversal (SecurityException)" />
+
+    </LinearLayout>
+</ScrollView>

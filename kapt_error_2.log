@@ -1,0 +1,1336 @@
+Initialized native services in: /Users/sgo-byan/.gradle/native
+Initialized jansi services in: /Users/sgo-byan/.gradle/native
+The client will now receive all logging from the daemon (pid: 25960). The daemon log file: /Users/sgo-byan/.gradle/daemon/8.13/daemon-25960.out.log
+Starting 7th build in daemon [uptime: 6 mins 25.564 secs, performance: 96%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Now considering [/Users/sgo-byan/project/SecureKitWp] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/sgo-byan/project/SecureKitWp/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/sgo-byan/project/SecureKitWp/build.gradle.kts'.
+Included projects: [root project 'SecureKitWp', project ':app', project ':securekit-biometric', project ':securekit-bom', project ':securekit-core', project ':securekit-crypto', project ':securekit-database', project ':securekit-integrity', project ':securekit-network']
+
+> Configure project :
+Evaluating root project 'SecureKitWp' using build file '/Users/sgo-byan/project/SecureKitWp/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.12.3', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21', apply: false]
+Resolved plugin [id: 'com.android.library', version: '8.12.3', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file '/Users/sgo-byan/project/SecureKitWp/app/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.12.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21']
+Resolved plugin [id: 'org.jetbrains.kotlin.kapt']
+Using default execution profile
+Build 418aaab4-f7e3-4cae-80ec-8fba22e4f3e1 is started
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :securekit-biometric
+Evaluating project ':securekit-biometric' using build file '/Users/sgo-byan/project/SecureKitWp/securekit-biometric/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '8.12.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21']
+Resolved plugin [id: 'maven-publish']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :securekit-bom
+Evaluating project ':securekit-bom' using build file '/Users/sgo-byan/project/SecureKitWp/securekit-bom/build.gradle.kts'.
+Resolved plugin [id: 'java-platform']
+Resolved plugin [id: 'maven-publish']
+
+> Configure project :securekit-core
+Evaluating project ':securekit-core' using build file '/Users/sgo-byan/project/SecureKitWp/securekit-core/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '8.12.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21']
+Resolved plugin [id: 'maven-publish']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :securekit-crypto
+Evaluating project ':securekit-crypto' using build file '/Users/sgo-byan/project/SecureKitWp/securekit-crypto/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '8.12.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21']
+Resolved plugin [id: 'maven-publish']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :securekit-database
+Evaluating project ':securekit-database' using build file '/Users/sgo-byan/project/SecureKitWp/securekit-database/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '8.12.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21']
+Resolved plugin [id: 'maven-publish']
+Resolved plugin [id: 'org.jetbrains.dokka', version: '1.9.20']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+
+> Configure project :securekit-integrity
+Evaluating project ':securekit-integrity' using build file '/Users/sgo-byan/project/SecureKitWp/securekit-integrity/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '8.12.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21']
+Resolved plugin [id: 'maven-publish']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+C/C++: android.ndkVersion from module build.gradle is [27.0.12077973]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is /Users/sgo-byan/Library/Android/sdk
+
+> Configure project :securekit-network
+Evaluating project ':securekit-network' using build file '/Users/sgo-byan/project/SecureKitWp/securekit-network/build.gradle.kts'.
+Resolved plugin [id: 'com.android.library', version: '8.12.3']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.21']
+Resolved plugin [id: 'maven-publish']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle813 variant
+All projects evaluated.
+Task path ':app:kaptDebugKotlin' matched project ':app'
+Task name matched 'kaptDebugKotlin'
+Selected primary task 'kaptDebugKotlin' from project :app
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':securekit-biometric:preBuild', task ':securekit-biometric:preDebugBuild', task ':securekit-biometric:writeDebugAarMetadata', task ':securekit-core:preBuild', task ':securekit-core:preDebugBuild', task ':securekit-core:writeDebugAarMetadata', task ':securekit-crypto:preBuild', task ':securekit-crypto:preDebugBuild', task ':securekit-crypto:writeDebugAarMetadata', task ':securekit-database:preBuild', task ':securekit-database:preDebugBuild', task ':securekit-database:writeDebugAarMetadata', task ':securekit-integrity:preBuild', task ':securekit-integrity:preDebugBuild', task ':securekit-integrity:writeDebugAarMetadata', task ':securekit-network:preBuild', task ':securekit-network:preDebugBuild', task ':securekit-network:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':securekit-biometric:generateDebugResValues', task ':securekit-biometric:generateDebugResources', task ':securekit-biometric:packageDebugResources', task ':securekit-core:generateDebugResValues', task ':securekit-core:generateDebugResources', task ':securekit-core:packageDebugResources', task ':securekit-crypto:generateDebugResValues', task ':securekit-crypto:generateDebugResources', task ':securekit-crypto:packageDebugResources', task ':securekit-database:generateDebugResValues', task ':securekit-database:generateDebugResources', task ':securekit-database:packageDebugResources', task ':securekit-integrity:generateDebugResValues', task ':securekit-integrity:generateDebugResources', task ':securekit-integrity:packageDebugResources', task ':securekit-network:generateDebugResValues', task ':securekit-network:generateDebugResources', task ':securekit-network:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':securekit-biometric:extractDeepLinksDebug', task ':securekit-biometric:processDebugManifest', task ':securekit-core:extractDeepLinksDebug', task ':securekit-core:processDebugManifest', task ':securekit-crypto:extractDeepLinksDebug', task ':securekit-crypto:processDebugManifest', task ':securekit-database:extractDeepLinksDebug', task ':securekit-database:processDebugManifest', task ':securekit-integrity:extractDeepLinksDebug', task ':securekit-integrity:processDebugManifest', task ':securekit-network:extractDeepLinksDebug', task ':securekit-network:processDebugManifest', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':securekit-biometric:compileDebugLibraryResources', task ':securekit-biometric:parseDebugLocalResources', task ':securekit-biometric:generateDebugRFile', task ':securekit-core:compileDebugLibraryResources', task ':securekit-core:parseDebugLocalResources', task ':securekit-core:generateDebugRFile', task ':securekit-crypto:compileDebugLibraryResources', task ':securekit-crypto:parseDebugLocalResources', task ':securekit-crypto:generateDebugRFile', task ':securekit-database:compileDebugLibraryResources', task ':securekit-database:parseDebugLocalResources', task ':securekit-database:generateDebugRFile', task ':securekit-integrity:compileDebugLibraryResources', task ':securekit-integrity:parseDebugLocalResources', task ':securekit-integrity:generateDebugRFile', task ':securekit-network:compileDebugLibraryResources', task ':securekit-network:parseDebugLocalResources', task ':securekit-network:generateDebugRFile', task ':app:processDebugResources', task ':securekit-biometric:checkKotlinGradlePluginConfigurationErrors', task ':securekit-core:checkKotlinGradlePluginConfigurationErrors', task ':securekit-core:compileDebugKotlin', task ':securekit-core:javaPreCompileDebug', task ':securekit-core:compileDebugJavaWithJavac', task ':securekit-core:bundleLibCompileToJarDebug', task ':securekit-biometric:compileDebugKotlin', task ':securekit-biometric:javaPreCompileDebug', task ':securekit-biometric:compileDebugJavaWithJavac', task ':securekit-biometric:bundleLibCompileToJarDebug', task ':securekit-crypto:checkKotlinGradlePluginConfigurationErrors', task ':securekit-crypto:compileDebugKotlin', task ':securekit-crypto:javaPreCompileDebug', task ':securekit-crypto:compileDebugJavaWithJavac', task ':securekit-crypto:bundleLibCompileToJarDebug', task ':securekit-database:checkKotlinGradlePluginConfigurationErrors', task ':securekit-database:compileDebugKotlin', task ':securekit-database:javaPreCompileDebug', task ':securekit-database:compileDebugJavaWithJavac', task ':securekit-database:bundleLibCompileToJarDebug', task ':securekit-integrity:checkKotlinGradlePluginConfigurationErrors', task ':securekit-integrity:compileDebugKotlin', task ':securekit-integrity:javaPreCompileDebug', task ':securekit-integrity:compileDebugJavaWithJavac', task ':securekit-integrity:bundleLibCompileToJarDebug', task ':securekit-network:checkKotlinGradlePluginConfigurationErrors', task ':securekit-network:compileDebugKotlin', task ':securekit-network:javaPreCompileDebug', task ':securekit-network:compileDebugJavaWithJavac', task ':securekit-network:bundleLibCompileToJarDebug', task ':app:kaptGenerateStubsDebugKotlin', task ':app:kaptDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#879,Execution worker Thread 4,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#875,included builds,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :app:preBuild (Thread[#875,included builds,5,main]) started.
+:app:preBuild (Thread[#875,included builds,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#875,included builds,5,main]) started.
+:app:preDebugBuild (Thread[#875,included builds,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :securekit-biometric:preBuild (Thread[#875,included builds,5,main]) started.
+:securekit-biometric:preBuild (Thread[#875,included builds,5,main]) started.
+
+> Task :securekit-biometric:preBuild UP-TO-DATE
+Skipping task ':securekit-biometric:preBuild' as it has no actions.
+Resolve mutations for :securekit-biometric:preDebugBuild (Thread[#875,included builds,5,main]) started.
+:securekit-biometric:preDebugBuild (Thread[#875,included builds,5,main]) started.
+
+> Task :securekit-biometric:preDebugBuild UP-TO-DATE
+Skipping task ':securekit-biometric:preDebugBuild' as it has no actions.
+Resolve mutations for :securekit-biometric:writeDebugAarMetadata (Thread[#875,included builds,5,main]) started.
+:securekit-biometric:writeDebugAarMetadata (Thread[#875,included builds,5,main]) started.
+
+> Task :securekit-biometric:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':securekit-biometric:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':securekit-biometric:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :securekit-biometric) (Thread[#875,included builds,5,main]) started.
+Resolve mutations for :securekit-core:preBuild (Thread[#875,included builds,5,main]) started.
+:securekit-core:preBuild (Thread[#875,included builds,5,main]) started.
+
+> Task :securekit-core:preBuild UP-TO-DATE
+Skipping task ':securekit-core:preBuild' as it has no actions.
+Resolve mutations for :securekit-core:preDebugBuild (Thread[#875,included builds,5,main]) started.
+:securekit-core:preDebugBuild (Thread[#875,included builds,5,main]) started.
+
+> Task :securekit-core:preDebugBuild UP-TO-DATE
+Skipping task ':securekit-core:preDebugBuild' as it has no actions.
+Resolve mutations for :securekit-core:writeDebugAarMetadata (Thread[#875,included builds,5,main]) started.
+:securekit-core:writeDebugAarMetadata (Thread[#875,included builds,5,main]) started.
+
+> Task :securekit-core:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':securekit-core:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':securekit-core:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :securekit-core) (Thread[#875,included builds,5,main]) started.
+Resolve mutations for :securekit-crypto:preBuild (Thread[#881,Execution worker Thread 6,5,main]) started.
+:securekit-crypto:preBuild (Thread[#881,Execution worker Thread 6,5,main]) started.
+
+> Task :securekit-crypto:preBuild UP-TO-DATE
+Skipping task ':securekit-crypto:preBuild' as it has no actions.
+Resolve mutations for :securekit-crypto:preDebugBuild (Thread[#881,Execution worker Thread 6,5,main]) started.
+:securekit-crypto:preDebugBuild (Thread[#879,Execution worker Thread 4,5,main]) started.
+
+> Task :securekit-crypto:preDebugBuild UP-TO-DATE
+Skipping task ':securekit-crypto:preDebugBuild' as it has no actions.
+Resolve mutations for :securekit-crypto:writeDebugAarMetadata (Thread[#879,Execution worker Thread 4,5,main]) started.
+:securekit-crypto:writeDebugAarMetadata (Thread[#879,Execution worker Thread 4,5,main]) started.
+
+> Task :securekit-crypto:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':securekit-crypto:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':securekit-crypto:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :securekit-crypto) (Thread[#879,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :securekit-database:preBuild (Thread[#879,Execution worker Thread 4,5,main]) started.
+:securekit-database:preBuild (Thread[#879,Execution worker Thread 4,5,main]) started.
+
+> Task :securekit-database:preBuild UP-TO-DATE
+Skipping task ':securekit-database:preBuild' as it has no actions.
+Resolve mutations for :securekit-database:preDebugBuild (Thread[#879,Execution worker Thread 4,5,main]) started.
+:securekit-database:preDebugBuild (Thread[#879,Execution worker Thread 4,5,main]) started.
+
+> Task :securekit-database:preDebugBuild UP-TO-DATE
+Skipping task ':securekit-database:preDebugBuild' as it has no actions.
+Resolve mutations for :securekit-database:writeDebugAarMetadata (Thread[#878,Execution worker Thread 3,5,main]) started.
+:securekit-database:writeDebugAarMetadata (Thread[#878,Execution worker Thread 3,5,main]) started.
+
+> Task :securekit-database:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':securekit-database:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':securekit-database:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :securekit-database) (Thread[#878,Execution worker Thread 3,5,main]) started.
+Resolve mutations for :securekit-integrity:preBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:preBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:preBuild UP-TO-DATE
+Skipping task ':securekit-integrity:preBuild' as it has no actions.
+Resolve mutations for :securekit-integrity:preDebugBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:preDebugBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:preDebugBuild UP-TO-DATE
+Skipping task ':securekit-integrity:preDebugBuild' as it has no actions.
+Resolve mutations for :securekit-integrity:writeDebugAarMetadata (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:writeDebugAarMetadata (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':securekit-integrity:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':securekit-integrity:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :securekit-integrity) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-network:preBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:preBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:preBuild UP-TO-DATE
+Skipping task ':securekit-network:preBuild' as it has no actions.
+Resolve mutations for :securekit-network:preDebugBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:preDebugBuild (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:preDebugBuild UP-TO-DATE
+Skipping task ':securekit-network:preDebugBuild' as it has no actions.
+Resolve mutations for :securekit-network:writeDebugAarMetadata (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:writeDebugAarMetadata (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:writeDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':securekit-network:writeDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':securekit-network:writeDebugAarMetadata' as it is up-to-date.
+work action resolve aar-metadata.properties (project :securekit-network) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :securekit-biometric:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':securekit-biometric:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :securekit-biometric:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:generateDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-biometric:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:generateDebugResources' as it is up-to-date.
+Resolve mutations for :securekit-biometric:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:packageDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-biometric:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :securekit-biometric) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-core:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':securekit-core:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':securekit-core:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :securekit-core:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:generateDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-core:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-core:generateDebugResources' as it is up-to-date.
+Resolve mutations for :securekit-core:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:packageDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-core:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-core:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :securekit-core) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-crypto:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':securekit-crypto:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :securekit-crypto:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:generateDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-crypto:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:generateDebugResources' as it is up-to-date.
+Resolve mutations for :securekit-crypto:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:packageDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-crypto:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :securekit-crypto) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-database:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':securekit-database:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':securekit-database:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :securekit-database:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:generateDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-database:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-database:generateDebugResources' as it is up-to-date.
+Resolve mutations for :securekit-database:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:packageDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-database:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-database:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :securekit-database) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-integrity:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':securekit-integrity:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :securekit-integrity:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:generateDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-integrity:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:generateDebugResources' as it is up-to-date.
+Resolve mutations for :securekit-integrity:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:packageDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-integrity:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :securekit-integrity) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-network:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:generateDebugResValues (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':securekit-network:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':securekit-network:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :securekit-network:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:generateDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-network:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-network:generateDebugResources' as it is up-to-date.
+Resolve mutations for :securekit-network:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:packageDebugResources UP-TO-DATE
+Caching disabled for task ':securekit-network:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':securekit-network:packageDebugResources' as it is up-to-date.
+work action resolve packageDebugResources (project :securekit-network) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:generateDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:packageDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :securekit-biometric:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':securekit-biometric:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :securekit-biometric) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-biometric:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:processDebugManifest UP-TO-DATE
+Caching disabled for task ':securekit-biometric:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :securekit-biometric) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-core:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':securekit-core:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-core:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :securekit-core) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-core:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:processDebugManifest UP-TO-DATE
+Caching disabled for task ':securekit-core:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':securekit-core:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :securekit-core) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-crypto:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':securekit-crypto:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :securekit-crypto) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-crypto:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:processDebugManifest UP-TO-DATE
+Caching disabled for task ':securekit-crypto:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :securekit-crypto) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-database:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':securekit-database:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-database:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :securekit-database) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-database:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:processDebugManifest UP-TO-DATE
+Caching disabled for task ':securekit-database:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':securekit-database:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :securekit-database) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-integrity:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':securekit-integrity:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :securekit-integrity) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-integrity:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:processDebugManifest UP-TO-DATE
+Caching disabled for task ':securekit-integrity:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :securekit-integrity) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-network:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:extractDeepLinksDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':securekit-network:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-network:extractDeepLinksDebug' as it is up-to-date.
+work action resolve navigation.json (project :securekit-network) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-network:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:processDebugManifest UP-TO-DATE
+Caching disabled for task ':securekit-network:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':securekit-network:processDebugManifest' as it is up-to-date.
+work action resolve AndroidManifest.xml (project :securekit-network) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:processDebugMainManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:processDebugMainManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:processDebugManifest (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :securekit-biometric:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':securekit-biometric:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :securekit-biometric) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-biometric:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':securekit-biometric:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :securekit-biometric:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':securekit-biometric:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :securekit-biometric) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-core:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':securekit-core:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':securekit-core:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :securekit-core) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-core:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':securekit-core:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':securekit-core:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :securekit-core:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':securekit-core:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':securekit-core:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :securekit-core) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-crypto:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':securekit-crypto:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :securekit-crypto) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-crypto:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':securekit-crypto:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :securekit-crypto:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':securekit-crypto:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :securekit-crypto) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-database:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':securekit-database:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':securekit-database:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :securekit-database) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-database:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':securekit-database:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':securekit-database:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :securekit-database:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':securekit-database:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':securekit-database:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :securekit-database) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-integrity:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':securekit-integrity:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :securekit-integrity) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-integrity:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':securekit-integrity:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :securekit-integrity:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':securekit-integrity:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :securekit-integrity) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-network:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:compileDebugLibraryResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:compileDebugLibraryResources UP-TO-DATE
+Caching disabled for task ':securekit-network:compileDebugLibraryResources' because:
+  Build cache is disabled
+Skipping task ':securekit-network:compileDebugLibraryResources' as it is up-to-date.
+work action resolve out (project :securekit-network) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-network:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:parseDebugLocalResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':securekit-network:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':securekit-network:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :securekit-network:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:generateDebugRFile (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':securekit-network:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':securekit-network:generateDebugRFile' as it is up-to-date.
+work action resolve package-aware-r.txt (project :securekit-network) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:processDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:processDebugResources (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :securekit-biometric:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':securekit-biometric:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :securekit-core:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':securekit-core:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :securekit-core:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:compileDebugKotlin UP-TO-DATE
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :securekit-core:compileDebugAndroidTestKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':securekit-core:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':securekit-core:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :securekit-core:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':securekit-core:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-core:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :securekit-core:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':securekit-core:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :securekit-core:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-core:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-core:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':securekit-core:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':securekit-core:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :securekit-core) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-biometric:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:compileDebugKotlin UP-TO-DATE
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :securekit-biometric:compileDebugAndroidTestKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':securekit-biometric:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :securekit-biometric:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':securekit-biometric:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-biometric:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :securekit-biometric:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':securekit-biometric:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :securekit-biometric:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-biometric:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-biometric:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':securekit-biometric:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':securekit-biometric:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :securekit-biometric) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-crypto:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':securekit-crypto:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :securekit-crypto:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:compileDebugKotlin UP-TO-DATE
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :securekit-crypto:compileDebugAndroidTestKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':securekit-crypto:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :securekit-crypto:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':securekit-crypto:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-crypto:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :securekit-crypto:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':securekit-crypto:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :securekit-crypto:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-crypto:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-crypto:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':securekit-crypto:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':securekit-crypto:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :securekit-crypto) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-database:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':securekit-database:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :securekit-database:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:compileDebugKotlin UP-TO-DATE
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :securekit-database:compileDebugAndroidTestKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':securekit-database:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':securekit-database:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :securekit-database:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':securekit-database:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-database:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :securekit-database:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':securekit-database:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :securekit-database:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-database:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-database:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':securekit-database:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':securekit-database:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :securekit-database) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-integrity:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':securekit-integrity:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :securekit-integrity:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:compileDebugKotlin UP-TO-DATE
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :securekit-integrity:compileDebugAndroidTestKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':securekit-integrity:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :securekit-integrity:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':securekit-integrity:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-integrity:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :securekit-integrity:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':securekit-integrity:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :securekit-integrity:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-integrity:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-integrity:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':securekit-integrity:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':securekit-integrity:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :securekit-integrity) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :securekit-network:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:checkKotlinGradlePluginConfigurationErrors (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':securekit-network:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :securekit-network:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:compileDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:compileDebugKotlin UP-TO-DATE
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :securekit-network:compileDebugAndroidTestKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':securekit-network:compileDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':securekit-network:compileDebugKotlin' as it is up-to-date.
+Resolve mutations for :securekit-network:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:javaPreCompileDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':securekit-network:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':securekit-network:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :securekit-network:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:compileDebugJavaWithJavac (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:compileDebugJavaWithJavac NO-SOURCE
+Skipping task ':securekit-network:compileDebugJavaWithJavac' as it has no source files and no previous output files.
+Resolve mutations for :securekit-network:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+:securekit-network:bundleLibCompileToJarDebug (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :securekit-network:bundleLibCompileToJarDebug UP-TO-DATE
+Caching disabled for task ':securekit-network:bundleLibCompileToJarDebug' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':securekit-network:bundleLibCompileToJarDebug' as it is up-to-date.
+work action resolve classes.jar (project :securekit-network) (Thread[#877,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:kaptGenerateStubsDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+:app:kaptGenerateStubsDebugKotlin (Thread[#877,Execution worker Thread 2,5,main]) started.
+
+> Task :app:kaptGenerateStubsDebugKotlin
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugAndroidTestKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Caching disabled for task ':app:kaptGenerateStubsDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptGenerateStubsDebugKotlin' is not up-to-date because:
+  Value of input property 'compilerOptions.freeCompilerArgs' has changed for task ':app:kaptGenerateStubsDebugKotlin'
+The input changes require a full rebuild for incremental task ':app:kaptGenerateStubsDebugKotlin'.
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Unknown@2b690f75, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=/Users/sgo-byan/project/SecureKitWp/app/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=/Users/sgo-byan/project/SecureKitWp/app/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin, useModuleDetection=true), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[/Users/sgo-byan/project/SecureKitWp/app/build/tmp/kapt3/incrementalData/debug, /Users/sgo-byan/project/SecureKitWp/app/build/tmp/kapt3/stubs/debug, /Users/sgo-byan/project/SecureKitWp/app/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable, /Users/sgo-byan/project/SecureKitWp/app/build/kotlin/kaptGenerateStubsDebugKotlin/local-state])
+Finished executing kotlin compiler using DAEMON strategy
+Resolve mutations for :app:kaptDebugKotlin (Thread[#880,Execution worker Thread 5,5,main]) started.
+:app:kaptDebugKotlin (Thread[#880,Execution worker Thread 5,5,main]) started.
+
+> Task :app:kaptDebugKotlin
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/main/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/kotlin', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+file or directory '/Users/sgo-byan/project/SecureKitWp/app/src/debug/java', not found
+Caching disabled for task ':app:kaptDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:kaptDebugKotlin'.
+Running kapt annotation processing using the Gradle Worker API
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+GradleBuildProject.Builder should not be accessed through AnalyticsConfiguratorService after AnalyticsService is created. Analytics information of this build might be incomplete.
+Using workers NONE isolation mode to run kapt
+
+> Task :app:kaptDebugKotlin FAILED
+Build 418aaab4-f7e3-4cae-80ec-8fba22e4f3e1 is closed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:kaptDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.gradle.internal.KaptWithoutKotlincTask$KaptExecutionWorkAction
+
+* Try:
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:kaptDebugKotlin'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:40)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing org.jetbrains.kotlin.gradle.internal.KaptWithoutKotlincTask$KaptExecutionWorkAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:252)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+	at org.gradle.internal.Either$Right.fold(Either.java:175)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:40)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at org.jetbrains.kotlin.gradle.internal.KaptExecution.run(KaptWithoutKotlincTask.kt:336)
+	at org.jetbrains.kotlin.gradle.internal.KaptWithoutKotlincTask$KaptExecutionWorkAction.execute(KaptWithoutKotlincTask.kt:273)
+	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+	at org.gradle.internal.Factories$1.create(Factories.java:31)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+	... 2 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at org.jetbrains.kotlin.kapt.base.AnnotationProcessingKt.doAnnotationProcessing(annotationProcessing.kt:98)
+	at org.jetbrains.kotlin.kapt.base.AnnotationProcessingKt.doAnnotationProcessing(annotationProcessing.kt:37)
+	at org.jetbrains.kotlin.kapt.base.Kapt.kapt(Kapt.kt:46)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 30 more
+Caused by: com.sun.tools.javac.processing.AnnotationProcessingError: java.lang.IllegalArgumentException: Provided Metadata instance has version 2.2.0, while maximum supported version is 2.1.0. To support newer versions, update the kotlin-metadata-jvm library.
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:1033)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:937)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run(JavacProcessingEnvironment.java:1265)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing(JavacProcessingEnvironment.java:1380)
+	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.processAnnotations(JavaCompiler.java:1272)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 34 more
+Caused by: java.lang.IllegalArgumentException: Provided Metadata instance has version 2.2.0, while maximum supported version is 2.1.0. To support newer versions, update the kotlin-metadata-jvm library.
+	at androidx.room.jarjarred.kotlin.metadata.jvm.internal.JvmReadUtils.throwIfNotCompatible$kotlin_metadata_jvm(JvmReadUtils.kt:95)
+	at androidx.room.jarjarred.kotlin.metadata.jvm.internal.JvmReadUtils.checkMetadataVersionForRead(JvmReadUtils.kt:84)
+	at androidx.room.jarjarred.kotlin.metadata.jvm.internal.JvmReadUtils.readMetadataImpl$kotlin_metadata_jvm(JvmReadUtils.kt:46)
+	at androidx.room.jarjarred.kotlin.metadata.jvm.KotlinClassMetadata$Companion.readStrict(KotlinClassMetadata.kt:398)
+	at androidx.room.compiler.processing.javac.kotlin.KmClassContainer$Companion.createFor(KotlinClassMetadataUtils.kt:182)
+	at androidx.room.compiler.processing.javac.JavacTypeElement$kotlinMetadata$2.invoke(JavacTypeElement.kt:57)
+	at androidx.room.compiler.processing.javac.JavacTypeElement$kotlinMetadata$2.invoke(JavacTypeElement.kt:57)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at androidx.room.compiler.processing.javac.JavacTypeElement.getKotlinMetadata(JavacTypeElement.kt:57)
+	at androidx.room.compiler.processing.javac.JavacTypeElement$type$2.invoke(JavacTypeElement.kt:215)
+	at androidx.room.compiler.processing.javac.JavacTypeElement$type$2.invoke(JavacTypeElement.kt:212)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at androidx.room.compiler.processing.javac.JavacTypeElement.getType(JavacTypeElement.kt:212)
+	at androidx.room.compiler.processing.javac.JavacProcessingEnv.findType(JavacProcessingEnv.kt:111)
+	at androidx.room.compiler.processing.XProcessingEnv.findType(XProcessingEnv.kt:187)
+	at androidx.room.compiler.processing.XProcessingEnv.requireType(XProcessingEnv.kt:163)
+	at androidx.room.processor.SuspendMethodProcessorDelegate$continuationParam$2.invoke(MethodProcessorDelegate.kt:182)
+	at androidx.room.processor.SuspendMethodProcessorDelegate$continuationParam$2.invoke(MethodProcessorDelegate.kt:180)
+	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:74)
+	at androidx.room.processor.SuspendMethodProcessorDelegate.getContinuationParam(MethodProcessorDelegate.kt:180)
+	at androidx.room.processor.SuspendMethodProcessorDelegate.findResultBinder(MethodProcessorDelegate.kt:202)
+	at androidx.room.processor.SuspendMethodProcessorDelegate.findResultBinder(MethodProcessorDelegate.kt:173)
+	at androidx.room.processor.InternalQueryProcessor.getQueryMethod(QueryMethodProcessor.kt:240)
+	at androidx.room.processor.InternalQueryProcessor.processQuery(QueryMethodProcessor.kt:167)
+	at androidx.room.processor.QueryMethodProcessor$process$1.invoke(QueryMethodProcessor.kt:75)
+	at androidx.room.processor.QueryMethodProcessor$process$1.invoke(QueryMethodProcessor.kt:68)
+	at androidx.room.processor.Context.collectLogs(Context.kt:174)
+	at androidx.room.processor.QueryMethodProcessor.process(QueryMethodProcessor.kt:68)
+	at androidx.room.processor.DaoProcessor.process(DaoProcessor.kt:148)
+	at androidx.room.processor.DatabaseProcessor$doProcess$daoMethods$3.invoke(DatabaseProcessor.kt:119)
+	at androidx.room.processor.DatabaseProcessor$doProcess$daoMethods$3.invoke(DatabaseProcessor.kt:98)
+	at kotlin.sequences.TransformingSequence$iterator$1.next(Sequences.kt:210)
+	at kotlin.sequences.FilteringSequence$iterator$1.calcNext(Sequences.kt:170)
+	at kotlin.sequences.FilteringSequence$iterator$1.hasNext(Sequences.kt:194)
+	at kotlin.sequences.SequencesKt___SequencesKt.toList(_Sequences.kt:809)
+	at androidx.room.processor.DatabaseProcessor.doProcess(DatabaseProcessor.kt:123)
+	at androidx.room.processor.DatabaseProcessor.process(DatabaseProcessor.kt:58)
+	at androidx.room.DatabaseProcessingStep$process$databases$1$1.invoke(DatabaseProcessingStep.kt:69)
+	at androidx.room.DatabaseProcessingStep$process$databases$1$1.invoke(DatabaseProcessingStep.kt:68)
+	at androidx.room.processor.Context.collectLogs(Context.kt:174)
+	at androidx.room.DatabaseProcessingStep.process(DatabaseProcessingStep.kt:68)
+	at androidx.room.compiler.processing.CommonProcessorDelegate.processRound(XBasicAnnotationProcessor.kt:134)
+	at androidx.room.compiler.processing.javac.JavacBasicAnnotationProcessor.process(JavacBasicAnnotationProcessor.kt:75)
+	at org.jetbrains.kotlin.kapt.base.incremental.IncrementalProcessor.process(incrementalProcessors.kt:88)
+	at org.jetbrains.kotlin.kapt.base.ProcessorWrapper.process(annotationProcessing.kt:217)
+	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:1021)
+	... 39 more
+
+
+BUILD FAILED in 21s
+87 actionable tasks: 2 executed, 85 up-to-date
+Watched directory hierarchies: [/Users/sgo-byan/project/SecureKitWp]

@@ -1,0 +1,40 @@
+name: SecureKit CI
+
+on:
+  push:
+    branches: [ main, release/* ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+
+      - name: Setup Android NDK
+        uses: android-actions/setup-ndk@v3
+        with:
+          ndk-version: r26b
+        continue-on-error: true
+
+      - name: Grant Execute Permission for Gradlew
+        run: chmod +x gradlew
+
+      - name: Build Release Artifacts
+        run: ./gradlew assembleRelease --no-daemon
+
+      - name: Run Unit Tests
+        run: ./gradlew test --no-daemon
+
+      - name: Verify Local Maven Publication
+        run: ./gradlew publishToMavenLocal --no-daemon
