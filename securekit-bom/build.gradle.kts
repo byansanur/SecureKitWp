@@ -27,7 +27,9 @@ afterEvaluate {
                 from(components["javaPlatform"])
                 groupId = "com.github.byansanur.SecureKitWp"
                 artifactId = "securekit-bom"
-                version = libraryVersion
+                
+                val jitpackVersion = project.version.toString().takeIf { it != "unspecified" } ?: libraryVersion
+                version = jitpackVersion
 
                 pom {
                     name.set("SecureKit BOM")

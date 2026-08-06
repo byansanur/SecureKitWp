@@ -12,9 +12,10 @@ subprojects {
             extensions.configure<org.gradle.api.publish.PublishingExtension>("publishing") {
                 publications {
                     withType<org.gradle.api.publish.maven.MavenPublication>().configureEach {
+                        val jitpackVersion = project.version.toString().takeIf { it != "unspecified" } ?: "1.0.0"
                         groupId = "com.github.byansanur.SecureKitWp"
                         artifactId = project.name
-                        version = "1.0.0"
+                        version = jitpackVersion
                     }
                 }
             }
