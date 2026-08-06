@@ -11,7 +11,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/securekit" />
+            <option value="$PROJECT_DIR$/securekit-biometric" />
+            <option value="$PROJECT_DIR$/securekit-bom" />
+            <option value="$PROJECT_DIR$/securekit-core" />
+            <option value="$PROJECT_DIR$/securekit-crypto" />
+            <option value="$PROJECT_DIR$/securekit-database" />
+            <option value="$PROJECT_DIR$/securekit-integrity" />
+            <option value="$PROJECT_DIR$/securekit-network" />
           </set>
         </option>
       </GradleProjectSettings>
