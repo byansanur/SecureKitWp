@@ -7,7 +7,7 @@ javaPlatform {
     allowDependencies()
 }
 
-val libraryVersion = "1.0.0"
+val libraryVersion = "1.1.0-alpha01"
 
 dependencies {
     constraints {

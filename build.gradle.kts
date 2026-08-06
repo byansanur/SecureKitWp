@@ -7,7 +7,7 @@ plugins {
 
 subprojects {
     group = "com.github.byansanur.SecureKitWp"
-    version = project.version.toString().takeIf { it != "unspecified" } ?: "1.0.0"
+    version = project.version.toString().takeIf { it != "unspecified" } ?: "1.1.0-alpha01"
 
     plugins.withId("com.android.library") {
         apply(plugin = "maven-publish")
@@ -15,7 +15,7 @@ subprojects {
             extensions.configure<org.gradle.api.publish.PublishingExtension>("publishing") {
                 publications {
                     withType<org.gradle.api.publish.maven.MavenPublication>().configureEach {
-                        val jitpackVersion = project.version.toString().takeIf { it != "unspecified" } ?: "1.0.0"
+                        val jitpackVersion = project.version.toString().takeIf { it != "unspecified" } ?: "1.1.0-alpha01"
                         groupId = "com.github.byansanur.SecureKitWp"
                         artifactId = project.name
                         version = jitpackVersion

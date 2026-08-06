@@ -83,7 +83,7 @@ In your **app** `build.gradle.kts`:
 ```kotlin
 dependencies {
     // Import SecureKit BOM — manages version for all modules
-    implementation(platform("com.github.byansanur.SecureKitWp:securekit-bom:1.0.5"))
+    implementation(platform("com.github.byansanur.SecureKitWp:securekit-bom:1.1.0-alpha01"))
 
     // Pick the modules you need (no version required when using BOM)
     implementation("com.github.byansanur.SecureKitWp:securekit-core")
@@ -103,8 +103,8 @@ If you prefer not to use BOM, specify the version on each module:
 
 ```kotlin
 dependencies {
-    implementation("com.github.byansanur.SecureKitWp:securekit-core:1.0.5")
-    implementation("com.github.byansanur.SecureKitWp:securekit-integrity:1.0.5")
+    implementation("com.github.byansanur.SecureKitWp:securekit-core:1.1.0-alpha01")
+    implementation("com.github.byansanur.SecureKitWp:securekit-integrity:1.1.0-alpha01")
     // ... add other modules as needed
 }
 ```
