@@ -1,6 +1,7 @@
 *.iml
 .gradle
 /local.properties
+/.idea
 .DS_Store
 /build
 **/build/
@@ -16,5 +17,5 @@ build_output.log
 
 # Kotlin & IDE Caches
 .kotlin/
-.idea/
-.vscode/
+
+.idea
