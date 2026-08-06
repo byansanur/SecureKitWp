@@ -32,7 +32,7 @@ afterEvaluate {
                 pom {
                     name.set("SecureKit BOM")
                     description.set("Enterprise-grade Android Security Library - Bill of Materials Platform")
-                    url.set("https://github.com/byan/SecureKitWp")
+                    url.set("https://github.com/byansanur/SecureKitWp")
                     licenses {
                         license {
                             name.set("The Apache Software License, Version 2.0")
@@ -47,9 +47,9 @@ afterEvaluate {
                         }
                     }
                     scm {
-                        connection.set("scm:git:github.com/byan/SecureKitWp.git")
-                        developerConnection.set("scm:git:ssh://github.com/byan/SecureKitWp.git")
-                        url.set("https://github.com/byan/SecureKitWp")
+                        connection.set("scm:git:github.com/byansanur/SecureKitWp.git")
+                        developerConnection.set("scm:git:ssh://github.com/byansanur/SecureKitWp.git")
+                        url.set("https://github.com/byansanur/SecureKitWp")
                     }
                 }
             }
