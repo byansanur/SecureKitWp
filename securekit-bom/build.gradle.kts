@@ -11,12 +11,15 @@ val libraryVersion = "1.0.0"
 
 dependencies {
     constraints {
-        api(project(":securekit-core"))
-        api(project(":securekit-integrity"))
-        api(project(":securekit-crypto"))
-        api(project(":securekit-network"))
-        api(project(":securekit-biometric"))
-        api(project(":securekit-database"))
+        val group = project.group.toString().takeIf { it != "unspecified" } ?: "com.github.byansanur.SecureKitWp"
+        val ver = project.version.toString().takeIf { it != "unspecified" } ?: libraryVersion
+        
+        api("$group:securekit-core:$ver")
+        api("$group:securekit-integrity:$ver")
+        api("$group:securekit-crypto:$ver")
+        api("$group:securekit-network:$ver")
+        api("$group:securekit-biometric:$ver")
+        api("$group:securekit-database:$ver")
     }
 }
 

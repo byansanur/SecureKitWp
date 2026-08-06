@@ -6,6 +6,9 @@ plugins {
 }
 
 subprojects {
+    group = "com.github.byansanur.SecureKitWp"
+    version = project.version.toString().takeIf { it != "unspecified" } ?: "1.0.0"
+
     plugins.withId("com.android.library") {
         apply(plugin = "maven-publish")
         afterEvaluate {
