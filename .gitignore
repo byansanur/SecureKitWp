@@ -16,6 +16,6 @@ kapt_error*.log
 build_output.log
 
 # Kotlin & IDE Caches
+.idea/**
 .kotlin/
 
-.idea
