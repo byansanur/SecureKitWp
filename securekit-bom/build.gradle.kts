@@ -25,7 +25,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["javaPlatform"])
-                groupId = "com.byan.securekit"
+                groupId = "com.github.byansanur.SecureKitWp"
                 artifactId = "securekit-bom"
                 version = libraryVersion
 
