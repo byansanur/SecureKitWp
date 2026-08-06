@@ -6,9 +6,15 @@ on:
   pull_request:
     branches: [ main ]
 
+# Cancel in-progress runs when new commits are pushed
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Checkout Repository
@@ -24,11 +30,7 @@ jobs:
       - name: Grant Execute Permission for Gradlew
         run: chmod +x gradlew
 
-      - name: Build Release Artifacts
-        run: ./gradlew assembleRelease --no-daemon
-
-      - name: Run Unit Tests
-        run: ./gradlew test --no-daemon
-
-      - name: Verify Local Maven Publication
-        run: ./gradlew publishToMavenLocal --no-daemon
+      - name: Build, Test & Verify Publication
+        env:
+          GRADLE_OPTS: "-Dorg.gradle.jvmargs='-Xmx4g -XX:MaxMetaspaceSize=1g'"
+        run: ./gradlew assembleRelease test publishToMavenLocal --no-daemon
