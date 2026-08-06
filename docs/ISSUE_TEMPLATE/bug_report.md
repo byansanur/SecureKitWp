@@ -12,6 +12,7 @@ assignees: ''
 - [ ] `securekit-crypto`
 - [ ] `securekit-network`
 - [ ] `securekit-biometric`
+- [ ] `securekit-database`
 - [ ] `securekit-bom`
 
 **Describe the Bug**
@@ -29,4 +30,4 @@ A clear and concise description of what you expected to happen.
 **Device & OS Information:**
 - Device: [e.g. Pixel 7]
 - Android Version: [e.g. Android 14 / API 34]
-- SecureKit Version: [e.g. 1.0.0]
+- SecureKit Version: [e.g. 1.1.0-alpha01]

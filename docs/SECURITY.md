@@ -6,8 +6,8 @@ Only the latest release version of **SecureKit** receives security updates and v
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.x   | :white_check_mark: |
-| < 1.0.0 | :x:                |
+| 1.1.x   | :white_check_mark: |
+| < 1.1.0 | :x:                |
 
 ## Reporting a Vulnerability
 
@@ -19,7 +19,7 @@ We take the security of **SecureKit** extremely seriously. If you discover a pot
 2. **Details to Include**:
    - Description of the issue and potential impact.
    - Proof of Concept (PoC) or reproduction steps.
-   - Affected modules (`securekit-integrity`, `securekit-crypto`, `securekit-core`, etc.).
+   - Affected modules (`securekit-integrity`, `securekit-crypto`, `securekit-core`, `securekit-network`, `securekit-biometric`, `securekit-database`, `securekit-bom`).
 3. **Response SLA**: We aim to acknowledge vulnerability reports within **48 hours** and provide a patch timeline within **7 business days**.
 4. **Bounty / Recognition**: Valid security disclosures will be credited in our release notes and `CHANGELOG.md`.
 

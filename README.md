@@ -561,6 +561,19 @@ SecureKit supports multi-environment configurations for different stages of your
 
 ---
 
+## 📚 Documentation Index
+
+For detailed guides, architecture blueprints, and contribution guidelines, explore the `docs/` directory:
+
+* 📐 **[Versioning Strategy & Release Guidelines](docs/VERSIONING.md)** — SemVer policy, pre-release suffixes (`alpha`/`beta`/`rc`), and testing via commit hash.
+* 🛡️ **[Penetration Testing & Security Audit Guide](docs/PENTESTING.md)** — OWASP MASVS mapping, dynamic/static pentest steps, Frida probing, and heap dump inspection.
+* 🤝 **[Contributing Guidelines](docs/CONTRIBUTING.md)** — Development workflow, PR guidelines, and environment setup.
+* 🔐 **[Security Policy](docs/SECURITY.md)** — Vulnerability reporting, SLA, and supported versions.
+* 📜 **[Code of Conduct](docs/CODE_OF_CONDUCT.md)** — Community standards and enforcement rules.
+* 📜 **[Changelog](docs/CHANGELOG.md)** — Detailed version history and release notes.
+
+---
+
 ## 📋 Requirements
 
 - **Min SDK**: 24 (Android 7.0 Nougat)

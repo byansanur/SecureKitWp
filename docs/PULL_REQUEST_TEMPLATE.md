@@ -7,6 +7,7 @@ Briefly describe the motivation and summary of changes in this Pull Request.
 - [ ] `securekit-crypto`
 - [ ] `securekit-network`
 - [ ] `securekit-biometric`
+- [ ] `securekit-database`
 - [ ] `securekit-bom`
 
 ## Checklist

@@ -11,13 +11,13 @@ This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDU
 ### Prerequisites
 - Android Studio Ladybug (2024.2.1) or newer
 - Android NDK (r26b or newer) & CMake 3.22.1
-- JDK 17 / Kotlin 2.0+
+- JDK 21 / Kotlin 2.0+
 
 ### Setting Up the Environment
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/byan/SecureKitWp.git
+   git clone https://github.com/byansanur/SecureKitWp.git
    cd SecureKitWp
    ```
 2. Build all modules and release artifacts:
@@ -33,11 +33,12 @@ This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDU
 
 SecureKit follows a modular **Bill of Materials (BOM)** structure:
 - `securekit-bom`: Platform version catalog.
-- `securekit-core`: Memory-safe primitives (`SecureCharArray`, `PathValidation`, `SecureResult`).
-- `securekit-integrity`: Native C++ NDK checks, root/hooking/emulator detection.
+- `securekit-core`: Memory-safe primitives (`SecureCharArray`, `PathValidation`, `SecureResult`, `SecurityLogger`).
+- `securekit-integrity`: Native C++ NDK checks, root/hooking/emulator detection, Play Integrity API.
 - `securekit-crypto`: Tink AEAD & Streaming AEAD storage (`SecureVault`).
 - `securekit-network`: Certificate Pinning & Proxy/VPN detection (`NetworkArmor`).
 - `securekit-biometric`: `BiometricShield` & `UiProtection`.
+- `securekit-database`: SQLCipher Room database encryption & `DatabasePassphraseManager`.
 
 ### Pull Request Process
 
@@ -51,4 +52,4 @@ SecureKit follows a modular **Bill of Materials (BOM)** structure:
    ```bash
    ./gradlew assembleRelease test publishToMavenLocal
    ```
-5. Open a Pull Request on GitHub with a clear summary of changes.
+5. Open a Pull Request on GitHub with a clear summary of changes using our [Pull Request Template](PULL_REQUEST_TEMPLATE.md).
