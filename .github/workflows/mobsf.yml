@@ -28,6 +28,18 @@ jobs:
         with:
           python-version: '3.10'
 
+      - name: Generate mobsfscan config
+        run: |
+          cat << 'EOF' > .mobsf
+          ignore-paths:
+            - "**/src/test/**"
+            - "**/src/androidTest/**"
+            - "**/test/**"
+            - "**/androidTest/**"
+            - "build"
+            - ".gradle"
+          EOF
+
       - name: Run mobsfscan
         uses: MobSF/mobsfscan@main
         with:
