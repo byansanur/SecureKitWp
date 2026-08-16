@@ -1,0 +1,7 @@
+ignore-paths:
+  - "**/src/test/**"
+  - "**/src/androidTest/**"
+  - "**/test/**"
+  - "**/androidTest/**"
+  - "build"
+  - ".gradle"
