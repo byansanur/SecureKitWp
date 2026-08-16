@@ -60,4 +60,63 @@ class DatabaseIntegrityCheckerTest {
         assertTrue(result is SecureResult.Success)
         assertFalse((result as SecureResult.Success).data)
     }
+
+    @Test
+    fun `test zero byte empty database returns false`() {
+        val emptyDb = File(dbDir, "empty.db")
+        emptyDb.createNewFile()
+        `when`(mockContext.getDatabasePath("empty.db")).thenReturn(emptyDb)
+
+        val result = integrityChecker.isPlaintextDatabase(mockContext, "empty.db")
+
+        assertTrue(result is SecureResult.Success)
+        assertFalse((result as SecureResult.Success).data)
+    }
+
+    @Test
+    fun `test truncated partial header less than 16 bytes returns false`() {
+        val partialDb = File(dbDir, "partial.db")
+        partialDb.writeBytes("SQLite format".toByteArray(Charsets.US_ASCII)) // 13 bytes
+        `when`(mockContext.getDatabasePath("partial.db")).thenReturn(partialDb)
+
+        val result = integrityChecker.isPlaintextDatabase(mockContext, "partial.db")
+
+        assertTrue(result is SecureResult.Success)
+        assertFalse((result as SecureResult.Success).data)
+    }
+
+    @Test
+    fun `test corrupt header with invalid version returns false`() {
+        val corruptDb = File(dbDir, "corrupt_version.db")
+        corruptDb.writeBytes("SQLite format 2\u0000SomePayloadBytesHere...".toByteArray(Charsets.US_ASCII))
+        `when`(mockContext.getDatabasePath("corrupt_version.db")).thenReturn(corruptDb)
+
+        val result = integrityChecker.isPlaintextDatabase(mockContext, "corrupt_version.db")
+
+        assertTrue(result is SecureResult.Success)
+        assertFalse((result as SecureResult.Success).data)
+    }
+
+    @Test
+    fun `test corrupt header with single byte diff returns false`() {
+        val corruptDb = File(dbDir, "corrupt_byte.db")
+        corruptDb.writeBytes("SQLite format 3XSomePayloadBytesHere...".toByteArray(Charsets.US_ASCII))
+        `when`(mockContext.getDatabasePath("corrupt_byte.db")).thenReturn(corruptDb)
+
+        val result = integrityChecker.isPlaintextDatabase(mockContext, "corrupt_byte.db")
+
+        assertTrue(result is SecureResult.Success)
+        assertFalse((result as SecureResult.Success).data)
+    }
+
+    @Test
+    fun `test path traversal in dbName returns SecureResult Error`() {
+        val maliciousDbName = "../outside_sandbox.db"
+        `when`(mockContext.getDatabasePath(maliciousDbName)).thenReturn(File(dbDir, maliciousDbName))
+
+        val result = integrityChecker.isPlaintextDatabase(mockContext, maliciousDbName)
+
+        assertTrue("Path traversal should result in SecureResult.Error", result is SecureResult.Error)
+        assertTrue((result as SecureResult.Error).cause is SecurityException)
+    }
 }

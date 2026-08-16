@@ -14,6 +14,7 @@ import java.util.Arrays
  */
 class SecureCharArray(clearText: CharArray) : AutoCloseable {
 
+    private val lock = Any()
     private var obfuscatedData: ByteArray
     private var key: ByteArray
     private var isCleared = false
@@ -43,12 +44,13 @@ class SecureCharArray(clearText: CharArray) : AutoCloseable {
      * Segera membersihkan (zero-out) array temporary setelah lambda selesai.
      */
     fun <R> useClearText(block: (CharArray) -> R): R {
-        check(!isCleared) { "SecureCharArray sudah dibersihkan (cleared/closed)!" }
+        val tempClearText: CharArray
+        synchronized(lock) {
+            check(!isCleared) { "SecureCharArray sudah dibersihkan (cleared/closed)!" }
 
-        val length = obfuscatedData.size / 2
-        val tempClearText = CharArray(length)
+            val length = obfuscatedData.size / 2
+            tempClearText = CharArray(length)
 
-        try {
             for (i in 0 until length) {
                 val b1 = (obfuscatedData[i * 2].toInt() xor key[i * 2].toInt()).toByte()
                 val b2 = (obfuscatedData[i * 2 + 1].toInt() xor key[i * 2 + 1].toInt()).toByte()
@@ -56,18 +58,22 @@ class SecureCharArray(clearText: CharArray) : AutoCloseable {
                 val charValue = ((b1.toInt() and 0xFF) shl 8) or (b2.toInt() and 0xFF)
                 tempClearText[i] = charValue.toChar()
             }
+        }
 
-            return block(tempClearText)
+        return try {
+            block(tempClearText)
         } finally {
             Arrays.fill(tempClearText, '\u0000')
         }
     }
 
     override fun close() {
-        if (!isCleared) {
-            Arrays.fill(obfuscatedData, 0.toByte())
-            Arrays.fill(key, 0.toByte())
-            isCleared = true
+        synchronized(lock) {
+            if (!isCleared) {
+                Arrays.fill(obfuscatedData, 0.toByte())
+                Arrays.fill(key, 0.toByte())
+                isCleared = true
+            }
         }
     }
 

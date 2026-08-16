@@ -62,6 +62,8 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.play.integrity)
     testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.3.1")
     androidTestImplementation(libs.androidx.junit)
 }
 
