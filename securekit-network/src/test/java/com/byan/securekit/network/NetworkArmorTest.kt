@@ -42,4 +42,14 @@ class NetworkArmorTest {
 
         assertFalse(networkArmor.isProxyActive(mockContext))
     }
+
+    @Test
+    fun `test createSecureHttpClient adds CertificateTransparencyInterceptor`() {
+        val domain = "api.bank.com"
+        val pins = listOf("sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=")
+
+        val client = networkArmor.createSecureHttpClient(domain, pins, enableCertificateTransparency = true)
+
+        assertTrue(client.interceptors.any { it is CertificateTransparencyInterceptor })
+    }
 }

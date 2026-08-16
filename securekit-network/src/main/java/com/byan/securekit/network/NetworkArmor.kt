@@ -19,20 +19,29 @@ class NetworkArmor(
 ) {
 
     /**
-     * Membuat [OkHttpClient] dengan SSL Certificate Pinning.
+     * Membuat [OkHttpClient] dengan SSL Certificate Pinning dan Certificate Transparency Interceptor.
      */
-    fun createSecureHttpClient(domainName: String, certPins: List<String>): OkHttpClient {
+    fun createSecureHttpClient(
+        domainName: String,
+        certPins: List<String>,
+        enableCertificateTransparency: Boolean = true
+    ): OkHttpClient {
         val certificatePinnerBuilder = CertificatePinner.Builder()
         for (pin in certPins) {
             certificatePinnerBuilder.add(domainName, pin)
         }
 
-        return OkHttpClient.Builder()
+        val builder = OkHttpClient.Builder()
             .certificatePinner(certificatePinnerBuilder.build())
             .connectTimeout(30, TimeUnit.SECONDS)
             .readTimeout(30, TimeUnit.SECONDS)
             .writeTimeout(30, TimeUnit.SECONDS)
-            .build()
+
+        if (enableCertificateTransparency) {
+            builder.addInterceptor(CertificateTransparencyInterceptor(logger))
+        }
+
+        return builder.build()
     }
 
     /**

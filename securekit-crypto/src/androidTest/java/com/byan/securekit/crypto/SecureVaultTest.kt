@@ -30,8 +30,8 @@ class SecureVaultTest {
 
     @Test
     fun testSaveAndGetStringRoundTrip() {
-        val key = "USER_SESSION_TOKEN"
-        val value = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+        val key = "test_round_trip_key"
+        val value = "sample_encrypted_test_payload_for_unit_testing"
 
         val saveResult = secureVault.saveString(context, key, value)
         assertTrue(saveResult is SecureResult.Success)

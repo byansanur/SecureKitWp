@@ -1,5 +1,6 @@
 package com.byan.securekit.core
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.util.Log
 import java.io.File
@@ -32,6 +33,7 @@ class FileSecurityLogger(
         }
     }
 
+    @SuppressLint("LogUsage")
     override fun d(tag: String, message: String) {
         val entry = formatLogEntry("DEBUG", tag, message, null)
         writeLogEntry(entry)
@@ -46,10 +48,12 @@ class FileSecurityLogger(
         }
     }
 
+    @SuppressLint("LogUsage")
     override fun e(tag: String, message: String, throwable: Throwable?) {
         val entry = formatLogEntry("ERROR", tag, message, throwable)
         writeLogEntry(entry)
 
+        // Log ke Logcat hanya pada lingkungan non-produksi (DEV, QA, PT, STAGING)
         if (environment.isNonProd) {
             try {
                 Log.e("SecureKit[$environment][$tag]", message, throwable)

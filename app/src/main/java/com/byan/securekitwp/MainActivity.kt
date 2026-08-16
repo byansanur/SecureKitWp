@@ -2,6 +2,7 @@ package com.byan.securekitwp
 
 import android.graphics.Color
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -37,6 +38,12 @@ class MainActivity : AppCompatActivity() {
 
         setupViews()
         observeViewModel()
+
+        // Proteksi anti-tapjacking global pada root view
+        val rootView = findViewById<View>(android.R.id.content)
+        if (rootView != null) {
+            UiProtection.preventTapjacking(rootView)
+        }
     }
 
     private fun setupViews() {
